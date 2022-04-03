@@ -1,0 +1,15 @@
+.button{
+    background-color: #6D9900;
+    border: 1px solid transparent;
+    transition: .2s ease-in-out;
+}
+.button:hover{
+    background-color: transparent;
+    border: 1px solid #6D9900;
+    color: #6D9900;
+}
+.left p{
+    color: rgb(121, 121, 121);
+    font-weight: 400;
+    line-height: 1.7;
+}

@@ -3,37 +3,49 @@
       "id": 1,
       "img": "https://i.ibb.co/jHCJK9f/mem-3.png",
       "name": "Dr. Kabir",
-      "review": "Your customer service is outstanding, your packaging is beautiful and the products I have received so far are wonderful - great quality!  Your catalog is fabulous.  I usually hate getting catalogs but yours will be staying with me and used often - it's pretty enough to leave on my coffee table!  But what I find most appealing is that your prices are better than most other options out there on almost every product!"
+      "time": "Reviewed in the United States on November 8, 2021",
+      "title": "Transmission signal issues",
+      "review": "I tried to use this as an automatic meat slicer. In my mind these fast spinning props would cut my turkey, salami, pepperoni, and most importantly, my ham. This product simply refuses to slice my deli meat. Not impressed."
     },
     {
       "id": 2,
       "img": "https://i.ibb.co/kmLmWP5/mem-1.png",
       "name": "Sabbir vai",
-      "review": "It is nice to know that your company takes the time to get to know their customers.  I am very pleased with my purchases and wish that I would of found you earlier!  I have a small online shop on Etsy but have been making jewelry for 10+ years now.  I will definitely order many times in the future and will pass your name on to my fellow artisans so they may also go shopping, too!"
+      "time": "Reviewed in the United Kingdom on January 10, 2021",
+      "title": "Amazing Drone, Just Buy It.",
+      "review": "First lost video transmission from the drone to the phone connected to the controller. The drone was just around 30 feet up in the air. The live video feed on the phone froze. After a while, the RC signal was lost and the drone stopped accepting joystick commands. After that it initiated automatic RTH routine, but instead of returning to the previously recorded Home position, it just landed directly down. Luckily it was not above anyone else's property. This drone has major connectivity issues."
     },
     {
       "id": 3,
       "img": "https://i.ibb.co/hZWqjd4/mem-2.png",
       "name": "Devid Parvej",
-      "review": "I have been incredibly pleased with everything from Halstead!  I'm a small business customer, with the emphasis on the small, but I feel like I matter to you guys and that's nice … and rare.  I am planning to have a little section dedicated to your awesome components and chain in my shop when they come in.  Many of my customers like to know that they're supporting businesses that are 'likeminded' when it comes to customer service, small businesses, etc."
+      "time": "Reviewed in the Canada on May 16, 2021",
+      "title": "Great drone for beginners",
+      "review": "I really wanted to like this drone since it's what i was looking for (lightweight/compact). I have bigger DJI drones and have been relatively happy with them."
     },
     {
       "id": 4,
       "img": "https://i.ibb.co/xf6HCKj/e96ac2-57a5456e6f2a4b9fb7a534a9fe97f745.webp",
       "name": "Monirujjaman",
-      "review": "Everything I have received so far has been wonderful.  I am working on making samples for my website and am so happy with the quality and value of everything.  I did hours and days and weeks of looking and pricing before placing an order, and Halstead was by far the best in both selection and cost."
+      "time": "Reviewed in the India on March 8, 2021",
+      "title": "Horrendous software/connectivity issues",
+      "review": "My timeline. I first got a joke of a drone off of Wish only because it was free to see what a drone is all about. That thing was pure crap.Then I bought a $180 Potensic D58 drone off of Amazon and got a broken one. It had a very nice carrying case, but it felt just like the one I got off of Wish, so maybe not the best quality drone."
     },
     {
       "id": 5,
       "img": "https://i.ibb.co/m91RTMg/unknown.jpg",
       "name": "GM. Rajon",
-      "review": "I just got my order of birthstone charms and they are FABULOUS!  The colors are amazing and the size and price are PERFECT.  I have to reiterate how much I love Halstead.  Your customer service, selection and prices are top notch and I love that you’re up the hill from me so I always get my stuff in record time.  I’m a huge fan of you all!"
+      "time": "Reviewed in the United States on May 25, 2021",
+      "title": " Impressive drone !",
+      "review": "I’m a total novice, and I heard good things about the DJI brand, and this was available at a good price. You also don’t need a license to fly it either. It was very easy to set up, the app was simple to use and everything is obvious. I was off and flying in no time."
     },
     {
       "id": 6,
       "img": "https://i.ibb.co/m91RTMg/unknown.jpg",
       "name": "Ashraful Khan",
-      "review": "Absolutely fantastic folks!  I’ve ordered from Halstead for years and they are super-duper.  Being a small jewelry designer/business owner, their products have always given my designs that little ‘something extra’ that I feel helps my sales.  Customer service A+"
+      "time": "Reviewed in the United States on February 8, 2022",
+      "title": "Excellent introductory drone",
+      "review": "I have been thinking about purchasing a drone for some time now after my friend got one. I was quite skeptical and I, as a person with purpose, needed this device to be useful. I could understand that it was quite fun, but I needed a use for it to justify the 400 dollar price tag (with tax). After looking at a bunch of different drones in the 100-250 dollar price range, I realized that they were pretty much just for fun and hobbies use."
     }
   ]
 
