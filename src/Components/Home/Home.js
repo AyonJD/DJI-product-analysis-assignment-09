@@ -21,14 +21,14 @@ const Home = () => {
                     <img className='ml-auto' src="https://i.ibb.co/42q2jLw/d3.jpg" alt="" />
                 </div>
             </div>
-            {/* <div className="review-parent grid grid-cols-3 gap-8 px-10">
+            <div className="review-parent grid grid-cols-3 gap-8 px-10">
                 {
                     slicedReview.map(singleReview => <Review key={singleReview.id} singleReview={singleReview}></Review>)
                 }
             </div>
             <div className="show-all-button text-center mt-8">
                 <button onClick={() => navigate('/review')} className='button text-md font-medium px-8 py-2 rounded text-white'>Show All Review</button>
-            </div> */}
+            </div>
         </>
     );
 };
