@@ -1,0 +1,21 @@
+.nav{
+    background-color: #6D9900;
+}
+.logo h1{
+    font-family: 'Fira Code', monospace;
+    /* background: linear-gradient(140deg, #6D9900, #E5008C 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; */
+    color: #fff;
+}
+.nav-item a{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0 20px;
+    color: #fff;
+}
+.nav-item a:nth-child(4){
+    margin-right: 0;
+}
