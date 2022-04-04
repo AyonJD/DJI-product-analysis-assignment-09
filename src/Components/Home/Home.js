@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useReview from '../../Hooks/useReview';
 import Review from '../Review/Review';

@@ -6,7 +6,6 @@ const Dashboard = () => {
     const [chartData] = useCharts();
     return (
         <div className='py-20 grid grid-cols-1 md:grid-cols-2 gap-10'>
-            {/* <div className="line-chart"> */}
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart
                     width={500}
@@ -24,7 +23,7 @@ const Dashboard = () => {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="investment" stroke="#FF0000" activeDot={{ r: 8 }} />
+                    <Line type="monotone" dataKey="investment" stroke="#6D9900" activeDot={{ r: 8 }} />
                     <Line type="monotone" dataKey="revenue" stroke="#00FF00" />
                     <Line type="monotone" dataKey="sell" stroke="#0000FF" />
                 </LineChart>
@@ -33,8 +32,9 @@ const Dashboard = () => {
             <div className="pie-chart">
             {/* <ResponsiveContainer width="100%" height="100%"> */}
                 <PieChart width={400} height={400}>
-                    <Pie data={chartData} dataKey="revenue" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+                    <Pie data={chartData} dataKey="revenue" cx="50%" cy="50%" outerRadius={60} fill="#6D9900" />
                     <Pie data={chartData} dataKey="investment" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label={true} />
+                    <Tooltip></Tooltip>
                 </PieChart>
                 </div>
             {/* </ResponsiveContainer> */}
@@ -55,8 +55,10 @@ const Dashboard = () => {
                     <XAxis dataKey="month" scale="band" />
                     <YAxis />
                     <Tooltip />
-                    <Bar dataKey="investment" barSize={20} fill="#413ea0" />
+                    <Bar dataKey="investment" barSize={40} fill="#6D9900" />
+                    <Bar dataKey="sell" barSize={40} fill="#82ca9d" />
                     <Line type="monotone" dataKey="revenue" stroke="#00FF00" />
+                    <Line type="monotone" dataKey="sell" stroke="#00FF00" />
                     <Legend />
                 </ComposedChart>
                 {/* </div> */}
@@ -78,7 +80,7 @@ const Dashboard = () => {
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
-                    <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />
+                    <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#6e9900ab" />
                     <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
                     <Area type="monotone" dataKey="sell" stackId="1" stroke="#ffc658" fill="#ffc658" />
                 </AreaChart>

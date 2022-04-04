@@ -4,16 +4,16 @@ const Blog = () => {
     return (
         <div className='container mx-auto'>
             <div className="qna_one px-3 md:px-0">
-                <h1 className='text-4xl font-semibold text-center pt-20 pb-8'>What is Context API?</h1>
-                <img className='w-2/3 mx-auto' src="https://i.ibb.co/df8MxDf/context.png" alt="" />
+                <h1 className='text-3xl md:text-4xl font-semibold text-center pt-10 md:pt-20 pb-8'>What is Context API?</h1>
+                <img className='w-full md:w-2/3 mx-auto' src="https://i.ibb.co/df8MxDf/context.png" alt="" />
                 <div className="content py-10 ">
                     <blockquote className="p-4 bg-gray-200 italic border-l-4 rounded-lg text-neutral-600 border-neutral-500 quote w-4/6 mx-auto mb-7">
                         <p >“Context provides a way to pass data through the component tree without having to pass props down manually at every level.”</p>
                     </blockquote>
-                    <p className='w-2/3 mx-auto mute'>For a more in-depth definition, it provides a way for you to make particular data available to all components throughout the component tree no matter how deeply nested that component may be.</p>
-                    <p className='py-5 w-2/3 mx-auto'>Let us look at this example:</p>
+                    <p className='md:w-2/3 md:mx-auto mute'>For a more in-depth definition, it provides a way for you to make particular data available to all components throughout the component tree no matter how deeply nested that component may be.</p>
+                    <p className='py-5 md:w-2/3 md:mx-auto mute'>Let us look at this example:</p>
                     <div className="img-section">
-                        <img className='w-1/3 float-left clear-both rounded-lg mr-10' src="https://i.ibb.co/FWrfXGP/app.png" alt="" />
+                        <img className='w-1/2 md:w-1/3 float-left clear-both rounded-lg md:mr-10 mr-4' src="https://i.ibb.co/FWrfXGP/app.png" alt="" />
                         <p className='mute'>In the example above, we specified the application theme using a props in the ParentComponent called theme. We had to pass that props to all components down the component tree to get it where it is needed which is the GrandChild component. The ChildComponent had nothing to do with the theme props but was just used as an intermediary.</p>
                         <p className='my-10 mute'>Now, imagine the GrandChild component was more deeply nested than it was in the top example. We would have to pass the theme props the same way we did here which would be cumbersome. This is the problem that Context solves. With Context, every component in the component tree has access to whatever data we decide to put in our context.</p>
                         <p className='mute'>With the new Context API, several new functions have been added to the mix creating giving us a rich tool to work with. If you’ve previously attempted to use the old (experimental, do not use) Context API, you may have come across some methods. However, let’s look at some code snippets on how we can use the Context API.</p>
@@ -22,8 +22,8 @@ const Blog = () => {
                 </div>
             </div>
             <div className="qna_two px-3 md:px-0">
-                <h1 className='text-4xl font-semibold text-center pt-20 pb-8'>What is Semantic tag?</h1>
-                <img className='w-2/3 mx-auto' src="https://i.ibb.co/ySXXNMP/semantic.png" alt="" />
+                <h1 className='text-3xl md:text-4xl font-semibold text-center pt-20 pb-8'>What is Semantic tag?</h1>
+                <img className='w-full md:w-2/3 mx-auto' src="https://i.ibb.co/ySXXNMP/semantic.png" alt="" />
                 <div className="content py-10">
                     <p className='mute'>The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. </p>
                     <h1 className='text-xl py-4 font-medium'>Why Do You Need to Use Semantic Tags?</h1>
