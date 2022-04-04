@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="logo hidden md:block">
                     <Link to='/'><h1 className='text-5xl font-bold'>Ayon.</h1></Link>
                 </div>
-                <div className={`nav nav-item flex flex-col md:flex-row w-full md:w-auto text-center absolute md:static duration-500 ease-in-out ${toggle ? "top-10" : "top-[-200px]"}`}>
+                <div className={`nav nav-item flex flex-col md:flex-row w-full md:w-auto text-center absolute md:static duration-500 ease-in-out pb-4 md:pb-0 ${toggle ? "top-10" : "top-[-200px]"}`}>
                     <CustomLink to="/">Home</CustomLink>
                     <CustomLink to="/review">Review</CustomLink>
                     <CustomLink to="/dashboard">Dashboard</CustomLink>
