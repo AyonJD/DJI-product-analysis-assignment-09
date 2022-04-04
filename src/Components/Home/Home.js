@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="left w-full md:w-1/2 order-2 md:order-1 px-4 md:px-0">
                     <h1 className='text-3xl md:text-5xl font-medium'>DJI Mavic Mini Drone FlyCam Quadcopter</h1>
                     <p className='py-7'>The compact yet powerful DJI Mavic Mini Drone is your perfect creative companion, capturing every moment in a way that effortlessly elevates the ordinary. Weighing under 250 grams, DJI’s newest drone is almost as light as an iPhone. Mavic Mini features a maximum flight time of 30 minutes, which paired with vision sensors and GPS Precise Hover ensures increased control and safety during flight. Together with the easy-to-use DJI Fly app on your iPhone or iPad, you’ll have a simplified flying experience and a perspective unlike any other.</p>
-                    <button className='button mb-16 md:mb-0 md:text-md md:font-medium px-5 py-2 md:px-8 rounded text-white'>Explore More</button>
+                    <button onClick={() => navigate('/blog')} className='button mb-16 md:mb-0 md:text-md md:font-medium px-5 py-2 md:px-8 rounded text-white'>Explore More</button>
                 </div>
                 <div className="right w-full md:w-1/2 order-1">
                     <img className='ml-auto' src="https://i.ibb.co/42q2jLw/d3.jpg" alt="" />
