@@ -22,7 +22,26 @@ const Blog = () => {
                 </div>
             </div>
             <div className="qna_two">
-                
+                <h1 className='text-4xl font-semibold text-center pt-20 pb-8'>What is Semantic tag?</h1>
+                <img className='w-2/3 mx-auto' src="https://i.ibb.co/ySXXNMP/semantic.png" alt="" />
+                <div className="content py-10">
+                    <p>The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. </p>
+                    <h1 className='text-xl py-4 font-medium'>Why Do You Need to Use Semantic Tags?</h1>
+                    <p className='mb-3'>The are several advantages of using semantics tags in HTML:</p>
+                    <ul>
+                        <li className='list-disc ml-8'>The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages.</li>
+                        <li className='list-disc ml-8'>The pages made with semantic elements are much easier to read.</li>
+                        <li className='list-disc ml-8'>It has greater accessibility. It offers a better user experience.</li>
+                    </ul>
+                    <h1 className='text-xl py-4 font-medium'>HTML Semantic Tag Structure.</h1>
+                    <ul>
+                        <li className='list-disc ml-8'>&lt;header&gt; : tag defines a header for a web page.</li>
+                        <li className='list-disc ml-8'>&lt;section&gt; : This defines a section in a web page.</li>
+                        <li className='list-disc ml-8'>&lt;article&gt; : This element contains the main part, containing informationabout the web page.</li>
+                        <li className='list-disc ml-8'>&lt;aside&gt; : This is often placed as a sidebar in a document.</li>
+                        <li className='list-disc ml-8'>&lt;footer&gt; : It defines a footer for a document or a section.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
