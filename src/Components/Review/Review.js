@@ -20,8 +20,8 @@ const Review = ({ singleReview }) => {
                     <Stars></Stars>
                     <Stars></Stars>
                     <Stars></Stars>
-                    <h3 className="ml-2 text-sm font-semibold text-gray-900 dark:text-white">{ title }</h3>
                 </div>
+                <h3 className="text-sm font-semibold text-gray-900 dark:text-white">{ title }</h3>
                 <footer className="mb-5 text-sm text-gray-500 dark:text-gray-400"><p>{time}</p></footer>
                 <p className="mb-2 font-light text-gray-500 dark:text-gray-400">{review}</p>
                 <Link to="#" className="block mb-5 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Read more</Link>
