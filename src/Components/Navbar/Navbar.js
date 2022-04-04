@@ -8,7 +8,7 @@ import './navbar.css'
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
     return (
-        <div className='nav sticky top-0'>
+        <div className='nav sticky top-0 z-50'>
             <div className="toggle-icon w-fit pt-3 z-50 md:hidden" onClick={() => setToggle(!toggle)}>
                 {
                     toggle ? <IoCloseSharp className='w-6 h-6 text-white md:hidden'></IoCloseSharp> : <HiOutlineMenuAlt1 className='w-6 h-6 text-white md:hidden'></HiOutlineMenuAlt1>
