@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useReview from '../../Hooks/useReview';
-import Navbar from '../Navbar/Navbar';
 import Review from '../Review/Review';
 import './Home.css'
 

@@ -8,14 +8,14 @@ import './navbar.css'
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
     return (
-        <div className='nav sticky top-0'>
+        <div className='nav sticky top-0 z-50 flex md:block items-center justify-between'>
             <div className="toggle-icon w-fit pt-3 z-50 md:hidden" onClick={() => setToggle(!toggle)}>
                 {
                     toggle ? <IoCloseSharp className='w-6 h-6 text-white md:hidden'></IoCloseSharp> : <HiOutlineMenuAlt1 className='w-6 h-6 text-white md:hidden'></HiOutlineMenuAlt1>
                 }
             </div>
             <nav className='px-0 md:px-10 py-3 flex justify-between items-center'>
-                <div className="logo hidden md:block">
+                <div className="logo">
                     <Link to='/'><h1 className='text-5xl font-bold'>Ayon.</h1></Link>
                 </div>
                 <div className={`nav nav-item flex flex-col md:flex-row w-full md:w-auto text-center absolute md:static duration-500 ease-in-out ${toggle ? "top-10" : "top-[-200px]"}`}>
