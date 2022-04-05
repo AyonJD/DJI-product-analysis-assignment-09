@@ -2,7 +2,7 @@
 
 Live Link: [DJI | Apollo Aircrafts](https://dji-drone-world.netlify.app/).
 
-## Concept used to build the DJI---
+## Concepts used to build the DJI---
 * Custom Hook.
 * React Router.
 * React Tailwind.
@@ -10,4 +10,3 @@ Live Link: [DJI | Apollo Aircrafts](https://dji-drone-world.netlify.app/).
 * Customlink.
 * Recharts.
 * Vanilla CSS.
-

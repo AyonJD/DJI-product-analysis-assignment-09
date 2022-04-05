@@ -5,6 +5,7 @@ import Contact from './Components/Contact/Contact';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
+import NotFound from './Components/NotFound/NotFound';
 import ReviewPage from './Components/Review/ReviewPage';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
