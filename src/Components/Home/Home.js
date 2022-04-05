@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useReview from '../../Hooks/useReview';
 import Review from '../Review/Review';
 import './Home.css'
+import img from '../../images/drone-vid.gif.gif'
 
 const Home = () => {
     const [review] = useReview([])
@@ -21,7 +22,7 @@ const Home = () => {
                     onMouseEnter={() => setHover(true)}
                     onMouseLeave={() => setHover(false)}
                     className="right w-full md:w-1/2 order-1">
-                    {hover? <img className='ml-auto hover_image my-10 md:my-0' src="images/drone-vid.gif" alt="" /> : <img className='ml-auto' src="https://i.ibb.co/42q2jLw/d3.jpg" alt="" />} 
+                    <img className='ml-auto hover_image my-10 md:my-0' src={hover ? `${img}` : "https://i.ibb.co/42q2jLw/d3.jpg"} alt="" />
                 </div>
             </div>
             <div className="review-parent grid grid-cols-1 md:grid-cols-3 gap-14 px-10">
