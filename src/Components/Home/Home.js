@@ -30,7 +30,7 @@ const Home = () => {
                     slicedReview.map(singleReview => <Review key={singleReview.id} singleReview={singleReview}></Review>)
                 }
             </div>
-            <div className="show-all-button text-center mt-8">
+            <div className="show-all-button text-center mt-8 mb-10">
                 <button onClick={() => navigate('/review')} className='button text-md font-medium px-8 py-2 rounded text-white'>Show All Review</button>
             </div>
         </>
