@@ -3,6 +3,7 @@ import './App.css';
 import Blog from './Components/Blog/Blog';
 import Contact from './Components/Contact/Contact';
 import Dashboard from './Components/Dashboard/Dashboard';
+import Footer from './Components/Footer/Footer';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import NotFound from './Components/NotFound/NotFound';
@@ -10,7 +11,7 @@ import ReviewPage from './Components/Review/ReviewPage';
 
 function App() {
   return (
-    <div>
+    <div className='h-[100vh]'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
@@ -20,6 +21,7 @@ function App() {
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

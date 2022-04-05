@@ -1,0 +1,8 @@
+.text-color{
+    color: #4b4b4b;
+}
+.auto-type-box{
+    background-color: #e8eaec;
+    box-shadow: 4px 4px 8px rgb(189 200 213), -4px -4px 8px rgb(255 255 255);
+    color: rgb(63, 63, 63);
+}
